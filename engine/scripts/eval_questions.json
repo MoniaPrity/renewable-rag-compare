@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What is Renewable Energy and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is Wind Turbine and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What are the main characteristics or benefits of Green Hydrogen?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Multi-microgrids function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Battery energy storage function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Battery Energy Storage System function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is Solar Photovoltaic and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is Grid and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "Why is Wind Power significant in the context of renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is Germany and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is Wind Turbines and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is DRO and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Industrial Park function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Photovoltaic Effect function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What is IES and what role does it play in renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Europe function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "Why is Solar Power significant in the context of renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "How does Electric Vehicle function within renewable energy systems?",
+    "category": "single_hop"
+  },
+  {
+    "question": "Why is LEOGO significant in the context of renewable energy?",
+    "category": "single_hop"
+  },
+  {
+    "question": "What are the main characteristics or benefits of Inertia?",
+    "category": "single_hop"
+  },
+  {
+    "question": "Considering that Northwest China hosts Multi-microgrids and Multi-microgrids uses Shared Energy Storage, how are Northwest China and Shared Energy Storage connected?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "What is the relationship between Northwest China and energy fluctuations through Multi-microgrids?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Northwest China relate to cost reduction, given its connection to Multi-microgrids?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "Considering that Northwest China hosts Multi-microgrids and Multi-microgrids employs Data-driven strategy, how are Northwest China and Data-driven strategy connected?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Northwest China relate to Multi-Agent Soft Actor-Critic, given its connection to Multi-microgrids?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "Considering that Northwest China hosts Multi-microgrids and Multi-microgrids employs Multi-Agent Win or Learn Fast Policy Hill-Climbing, how are Northwest China and Multi-Agent Win or Learn Fast Policy Hill-Climbing connected?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Northwest China relate to Energy Fluctuation, given its connection to Multi-microgrids?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "What is the relationship between Polarization Relaxation and Intermediate Scan Rates through Hysteresis Amplitude?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Central Controller relate to Energy Storage System, given its connection to User?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "What is the relationship between Central Controller and Linear Programming through User?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "What is the relationship between Battery Operator and Community through Battery Capacity?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "Considering that Electron Irradiation affects GaInAsP and GaInAsP is_compatible_with Satellite Operating Conditions, how are Electron Irradiation and Satellite Operating Conditions connected?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Electron Irradiation relate to GEO Missions, given its connection to GaInAsP?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Electron Irradiation relate to InP-fraction, given its connection to GaInAsP?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "Considering that Germany located Renewable Energy Act and Renewable Energy Act changed Feed-in Tariffs, how are Germany and Feed-in Tariffs connected?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "What is the relationship between Bi-level Programming and System Inertia through Renewable Energy?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "Considering that Bi-level Programming applies to Renewable Energy and Renewable Energy hindered by Power Grid, how are Bi-level Programming and Power Grid connected?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Bi-level Programming relate to Distributed Generations, given its connection to Renewable Energy?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Bi-level Programming relate to Distribution Network, given its connection to Renewable Energy?",
+    "category": "multi_hop"
+  },
+  {
+    "question": "How does Bi-level Programming relate to Power System, given its connection to Renewable Energy?",
+    "category": "multi_hop"
+  }
+]

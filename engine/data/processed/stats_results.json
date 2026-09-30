@@ -1,0 +1,333 @@
+{
+  "overall": {
+    "label": "All questions",
+    "n": 40,
+    "bootstrap_ci": {
+      "vector": {
+        "groundedness": {
+          "mean": 4.875,
+          "ci_95_low": 4.65,
+          "ci_95_high": 5.0,
+          "n": 40
+        },
+        "relevance": {
+          "mean": 4.9,
+          "ci_95_low": 4.7,
+          "ci_95_high": 5.0,
+          "n": 40
+        },
+        "completeness": {
+          "mean": 4.725,
+          "ci_95_low": 4.425,
+          "ci_95_high": 4.95,
+          "n": 40
+        }
+      },
+      "graph": {
+        "groundedness": {
+          "mean": 4.275,
+          "ci_95_low": 3.85,
+          "ci_95_high": 4.65,
+          "n": 40
+        },
+        "relevance": {
+          "mean": 4.725,
+          "ci_95_low": 4.425,
+          "ci_95_high": 4.95,
+          "n": 40
+        },
+        "completeness": {
+          "mean": 4.2,
+          "ci_95_low": 3.775,
+          "ci_95_high": 4.6,
+          "n": 40
+        }
+      },
+      "graph_reranked": {
+        "groundedness": {
+          "mean": 4.675,
+          "ci_95_low": 4.4,
+          "ci_95_high": 4.9,
+          "n": 40
+        },
+        "relevance": {
+          "mean": 4.925,
+          "ci_95_low": 4.775,
+          "ci_95_high": 5.0,
+          "n": 40
+        },
+        "completeness": {
+          "mean": 4.6,
+          "ci_95_low": 4.3,
+          "ci_95_high": 4.85,
+          "n": 40
+        }
+      }
+    },
+    "wilcoxon": {
+      "graph_vs_graph_reranked": {
+        "groundedness": {
+          "statistic": 16.5,
+          "p_value": 0.074
+        },
+        "relevance": {
+          "statistic": 4.0,
+          "p_value": 0.167
+        },
+        "completeness": {
+          "statistic": 30.5,
+          "p_value": 0.0892
+        }
+      },
+      "vector_vs_graph": {
+        "groundedness": {
+          "statistic": 2.5,
+          "p_value": 0.0061
+        },
+        "relevance": {
+          "statistic": 0.0,
+          "p_value": 0.0588
+        },
+        "completeness": {
+          "statistic": 13.5,
+          "p_value": 0.0227
+        }
+      },
+      "vector_vs_graph_reranked": {
+        "groundedness": {
+          "statistic": 13.5,
+          "p_value": 0.1381
+        },
+        "relevance": {
+          "statistic": 1.0,
+          "p_value": 0.6547
+        },
+        "completeness": {
+          "statistic": 23.5,
+          "p_value": 0.389
+        }
+      }
+    }
+  },
+  "single_hop": {
+    "label": "single_hop",
+    "n": 20,
+    "bootstrap_ci": {
+      "vector": {
+        "groundedness": {
+          "mean": 5.0,
+          "ci_95_low": 5.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "relevance": {
+          "mean": 5.0,
+          "ci_95_low": 5.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "completeness": {
+          "mean": 4.9,
+          "ci_95_low": 4.75,
+          "ci_95_high": 5.0,
+          "n": 20
+        }
+      },
+      "graph": {
+        "groundedness": {
+          "mean": 3.95,
+          "ci_95_low": 3.35,
+          "ci_95_high": 4.5,
+          "n": 20
+        },
+        "relevance": {
+          "mean": 4.65,
+          "ci_95_low": 4.2,
+          "ci_95_high": 4.95,
+          "n": 20
+        },
+        "completeness": {
+          "mean": 3.8,
+          "ci_95_low": 3.2,
+          "ci_95_high": 4.35,
+          "n": 20
+        }
+      },
+      "graph_reranked": {
+        "groundedness": {
+          "mean": 4.35,
+          "ci_95_low": 3.85,
+          "ci_95_high": 4.75,
+          "n": 20
+        },
+        "relevance": {
+          "mean": 4.85,
+          "ci_95_low": 4.55,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "completeness": {
+          "mean": 4.2,
+          "ci_95_low": 3.7,
+          "ci_95_high": 4.65,
+          "n": 20
+        }
+      }
+    },
+    "wilcoxon": {
+      "graph_vs_graph_reranked": {
+        "groundedness": {
+          "statistic": 15.5,
+          "p_value": 0.2146
+        },
+        "relevance": {
+          "statistic": 4.0,
+          "p_value": 0.3363
+        },
+        "completeness": {
+          "statistic": 29.5,
+          "p_value": 0.2545
+        }
+      },
+      "vector_vs_graph": {
+        "groundedness": {
+          "statistic": 0.0,
+          "p_value": 0.007
+        },
+        "relevance": {
+          "statistic": 0.0,
+          "p_value": 0.0588
+        },
+        "completeness": {
+          "statistic": 0.0,
+          "p_value": 0.0036
+        }
+      },
+      "vector_vs_graph_reranked": {
+        "groundedness": {
+          "statistic": 0.0,
+          "p_value": 0.0084
+        },
+        "relevance": {
+          "statistic": 0.0,
+          "p_value": 0.3173
+        },
+        "completeness": {
+          "statistic": 0.0,
+          "p_value": 0.0097
+        }
+      }
+    }
+  },
+  "multi_hop": {
+    "label": "multi_hop",
+    "n": 20,
+    "bootstrap_ci": {
+      "vector": {
+        "groundedness": {
+          "mean": 4.75,
+          "ci_95_low": 4.3,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "relevance": {
+          "mean": 4.8,
+          "ci_95_low": 4.4,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "completeness": {
+          "mean": 4.55,
+          "ci_95_low": 3.95,
+          "ci_95_high": 5.0,
+          "n": 20
+        }
+      },
+      "graph": {
+        "groundedness": {
+          "mean": 4.6,
+          "ci_95_low": 4.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "relevance": {
+          "mean": 4.8,
+          "ci_95_low": 4.4,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "completeness": {
+          "mean": 4.6,
+          "ci_95_low": 4.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        }
+      },
+      "graph_reranked": {
+        "groundedness": {
+          "mean": 5.0,
+          "ci_95_low": 5.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "relevance": {
+          "mean": 5.0,
+          "ci_95_low": 5.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        },
+        "completeness": {
+          "mean": 5.0,
+          "ci_95_low": 5.0,
+          "ci_95_high": 5.0,
+          "n": 20
+        }
+      }
+    },
+    "wilcoxon": {
+      "graph_vs_graph_reranked": {
+        "groundedness": {
+          "statistic": 0.0,
+          "p_value": 0.1573
+        },
+        "relevance": {
+          "statistic": 0.0,
+          "p_value": 0.3173
+        },
+        "completeness": {
+          "statistic": 0.0,
+          "p_value": 0.1573
+        }
+      },
+      "vector_vs_graph": {
+        "groundedness": {
+          "statistic": 1.0,
+          "p_value": 0.6547
+        },
+        "relevance": {
+          "statistic": null,
+          "p_value": null,
+          "note": "identical scores on every question \u2014 test undefined"
+        },
+        "completeness": {
+          "statistic": 2.5,
+          "p_value": 0.7855
+        }
+      },
+      "vector_vs_graph_reranked": {
+        "groundedness": {
+          "statistic": 0.0,
+          "p_value": 0.1797
+        },
+        "relevance": {
+          "statistic": 0.0,
+          "p_value": 0.3173
+        },
+        "completeness": {
+          "statistic": 0.0,
+          "p_value": 0.1025
+        }
+      }
+    }
+  }
+}

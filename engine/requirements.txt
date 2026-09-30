@@ -1,0 +1,27 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# Vector RAG
+chromadb==0.5.23
+sentence-transformers==5.6.1
+
+# Graph RAG
+networkx==3.4.2
+
+# Stats (bootstrap CI + Wilcoxon in scripts/06_statistical_analysis.py)
+scipy>=1.11
+
+# LLM
+groq==0.30.0
+
+# Corpus collection
+# arxiv removed (v2 dataset rebuild - arXiv was the contamination source,
+# dropped entirely; see scripts/01_collect_corpus.py docstring)
+wikipedia==1.4.0
+requests>=2.31.0  # used directly now for the MediaWiki category-tree crawl
+
+# shared package (installed in editable mode, see README)
+-e ../packages/shared

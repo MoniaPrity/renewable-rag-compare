@@ -1,0 +1,36 @@
+# Secrets (keep the example templates)
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Generated data (regenerate via scripts)
+engine/data/raw/*
+engine/data/index/*
+engine/data/processed/*
+!engine/data/raw/.gitkeep
+!engine/data/index/.gitkeep
+!engine/data/processed/.gitkeep
+# Keep small research results so others can verify the numbers
+!engine/data/processed/eval_results.json
+!engine/data/processed/stats_results.json
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Editor / OS / logs
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
