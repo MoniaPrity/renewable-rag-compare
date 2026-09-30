@@ -1,6 +1,6 @@
 # Renewable Energy: Vector RAG vs Graph RAG vs Reranked Graph RAG
 
-CSE499B capstone project. Research question: **Does cross-encoder reranking
+Research question: **Does cross-encoder reranking
 close the multi-hop performance gap between knowledge-graph retrieval and
 vector RAG in renewable energy domain QA?**
 
